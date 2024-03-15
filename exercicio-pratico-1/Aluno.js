@@ -1,7 +1,9 @@
 class Aluno {
-    #nome = "Augusto";
-    #login = 123;
-    #ra = 2418185;
+    constructor(nome, login, RA) {
+        this.nome = nome;
+        this.login = login;
+        this.RA = RA;
+    }
 }
 
-export default Aluno;
+export { Aluno };

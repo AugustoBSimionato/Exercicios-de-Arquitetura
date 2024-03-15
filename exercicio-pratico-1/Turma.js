@@ -1,8 +1,15 @@
 class Turma {
-    #codigo = "Augusto";
-    #nota = 123;
+    #codigo;
+    #nota;
 
-    aprovado() { return Boolean}
+    constructor(codigo, nota) {
+        this.#codigo = codigo;
+        this.#nota = nota;
+    }
+
+    aprovado() {
+        return true;
+    }
 }
 
-export default Turma;
+export { Turma };
