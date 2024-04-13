@@ -19,3 +19,11 @@ function applyDiscount(total) {
 function addShippingCost(total) {
     return (total < 50 ? total + 5 : total).toFixed(2);
 }
+
+// Teste
+const products = [
+    { price: 10, quantity: 1 },
+    { price: 15, quantity: 1 },
+    { price: 20, quantity: 1 }
+];
+console.log("Preço total: " + calculateTotalPrice(products));
